@@ -9,14 +9,14 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.11"
 Jinja2 = "^3.1.4"
-typer = "^0.12.5"
+typer = "^0.13.0"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.6.9"
+ruff = "^0.7.3"
 pytest = "^8.3.3"
-coverage = "^7.6.1"
+coverage = "^7.6.5"
 pre-commit = "^4.0.1"
-pytest-cov = "^5.0.0"
+pytest-cov = "^6.0.0"
 
 [tool.poetry.scripts]
 potara = "potara.cli:cli"
